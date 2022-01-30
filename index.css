@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Consolas', sans-serif;
+}
+/* body {
+    max-width: 1280px;
+    margin: 0 auto;
+    
+} */
+.div_1 {
+    /* background-image: url(./img/photo-1.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat; */
+    /* background-size: cover; */
+    background: url(./img/photo-1.jpg) no-repeat bottom center;
+    background-size: cover;
+    padding: 200px 0 50px 0;
+    width: 100%;    
+}
+.div_1 h3 {
+    color: #fff;
+    text-align: center;
+    padding-top: 50px;    
+}
+.div_1 p {
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;    
+}
+
+.div_2 {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding: 100px 0;
+}
+.div_2 p {
+    text-align: justify;
+}
+
+.div_3 {
+    background-color: rgb(35, 34, 44) ;
+    text-align: center;
+    color: #fff;
+    padding: 50px 0;
+}
+.div_3 ul li {
+    text-align: left;
+    background-color: #fff;
+    padding: 10px 20px;
+    width: 50%;
+    color: #222;
+    margin: 0 auto;
+    border: 1px solid #111;
+    list-style: none;
+}
+.div_3 ul li span {
+    background-color: red;
+    color: #fff;
+    padding: 5px 10px;
+}
+.div_3 ul li .three {
+    background-color: #111;
+    color: rgb(255, 255, 255);
+    float: right;
+    border-radius: 100%;    
+}
+.div_4 {
+    padding: 50px 0;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+.div_4 ul {
+    float: left;
+    list-style-type: none;
+    text-align: left;    
+    margin: -1px !important;
+}
+.div_4 form {
+    float: right;
+    text-align: left;    
+}
+.div_4 form input {
+    padding: 10px;
+}
+.div_4 form .mess {
+    width: 94%;
+    margin: 10px 0;
+}
+.div_4 button {
+    background-color:#111;
+    padding: 10px 10px;
+    color: #fff;
+    float: right;
+}
+.div_5 {
+    background: url(./img/offset_comp_772626-opt.jpg) no-repeat center;
+    background-size: cover;
+    padding: 200px 0;
+    clear: both;
+    margin-top: 50px;
+}
+.div_4::after {
+    content: "";
+    clear: both;
+    display: block;
+}
